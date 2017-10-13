@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ios_test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="main" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="ios_test" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -47,7 +47,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="F8C-Ow-Gcm">
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="refresh" id="c4g-NO-XPN">
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="refresh" id="c4g-NO-XPN">
                             <connections>
                                 <action selector="refresh:" destination="BYZ-38-t0r" id="5Il-w5-3f8"/>
                             </connections>

@@ -62,7 +62,7 @@ class ViewController: UIViewController {
                 return
             }
             
-            var request: URLRequest = URLRequest(url: url)
+            let request: URLRequest = URLRequest(url: url)
             let task: URLSessionDataTask = URLSession.shared.dataTask(with: request, completionHandler: {
                 (data, response, error) in
                 guard error == nil else {
